@@ -14,7 +14,7 @@ export const character: Character = {
   settings: {
     secrets: {},
     model: "nvidia/nemotron-3-nano-30b-a3b-free",
-    temperature: 0.3,
+    temperature: 0.5,
     max_tokens: 2500,
     embeddingModel: "text-embedding-3-small",
   },
