@@ -12,7 +12,7 @@ export const character: Character = {
   ],
   settings: {
     secrets: {},
-    model: "anthropic/claude-opus-4.6:nitro",
+    model: "anthropic/claude-3-opus-nitro",
     temperature: 0.2,
     embeddingModel: "text-embedding-3-small",
   },
