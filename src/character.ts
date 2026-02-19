@@ -5,10 +5,11 @@ export const character: Character = {
   plugins: [
     // Core plugins - required for base functionality
     "@elizaos/plugin-sql",
-    "@elizaos/plugin-bootstrap",
+    "@elizaos/plugin-bootstrap", 
 
     // Model provider
     "@elizaos/plugin-openrouter",
+    "@elizaos/plugin-telegram", 
   ],
   settings: {
     secrets: {},
