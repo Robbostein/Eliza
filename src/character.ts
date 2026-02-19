@@ -13,9 +13,9 @@ export const character: Character = {
   ],
   settings: {
     secrets: {},
-    model: "anthropic/claude-3-haiku",
-    temperature: 0.1,
-    max_tokens: 2000,
+    model: "nvidia/nemotron-3-nano-30b-a3b-free",
+    temperature: 0.3,
+    max_tokens: 2500,
     embeddingModel: "text-embedding-3-small",
   },
   system: `You are a forecasting agent that operates Sapience prediction markets.
